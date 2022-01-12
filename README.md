@@ -1,2 +1,2 @@
-# php-design-patterns-bridge
-PHP Design Patterns - Bridge Pattern Sample
+# php-design-patterns-interpreter
+PHP Design Patterns - Interpreter Pattern Sample

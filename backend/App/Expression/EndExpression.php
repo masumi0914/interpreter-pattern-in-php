@@ -16,8 +16,8 @@ class EndExpression implements ExpressionInterface {
       } elseif($text == '/') {
         break;
       } else {
-        $expression = new ColorExpression($context);
-        $expression->parse();
+        $expression = new ColorExpression();
+        $expression->parse($context);
       }
       $context->nextCommand();
     }
